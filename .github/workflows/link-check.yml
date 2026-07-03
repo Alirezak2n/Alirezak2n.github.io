@@ -25,8 +25,9 @@ jobs:
             --verbose
             --no-progress
             --include-fragments
-            --root-dir "$GITHUB_WORKSPACE"
+            --root-dir ${{ github.workspace }}
+            --exclude https://pubs.acs.org
             --max-retries 3
             --retry-wait-time 5
-            --accept 200,206,403,429
+            --accept 200,206,429
             './**/*.html'
