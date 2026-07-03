@@ -1,0 +1,32 @@
+name: Check broken links
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Fail the run (and notify the repo owner) if any link is broken.
+          fail: true
+          args: >-
+            --verbose
+            --no-progress
+            --include-fragments
+            --exclude-mail
+            --max-retries 3
+            --retry-wait-time 5
+            --accept 200,206,429
+            './**/*.html'

@@ -1,0 +1,8 @@
+# URLs (regex, one per line) that lychee should skip.
+# These domains block automated checkers and cause false positives.
+
+# LinkedIn returns HTTP 999 to bots
+https://linkedin\.com/.*
+
+# Google Scholar frequently returns 403/429 to automated requests
+https://scholar\.google\.com/.*
