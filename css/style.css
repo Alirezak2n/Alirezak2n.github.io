@@ -100,11 +100,11 @@
 
 .u0004{width:9px;height:9px;border-radius:50%;background:#22d3ee;box-shadow:0 0 14px 2px #22d3ee}
 
-.u0005{font-family:'JetBrains Mono',monospace;font-size:12px;color:#4f5970;letter-spacing:.14em}
+.u0005{font-family:'JetBrains Mono',monospace;font-size:12px;color:#747b8e;letter-spacing:.14em}
 
 .u0006{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:500;color:#aeb8d4;margin-top:6px;transition:color .4s ease}
 
-.u0007{font-size:13px;color:#5f6b85;margin-top:6px;max-width:280px;line-height:1.5;transition:opacity .4s ease}
+.u0007{font-size:13px;color:#768096;margin-top:6px;max-width:280px;line-height:1.5;transition:opacity .4s ease}
 
 .u0008{position:fixed;top:0;left:0;height:3px;width:0%;z-index:60;background:linear-gradient(90deg,#3b82f6,#22d3ee,#8b5cf6);box-shadow:0 0 10px rgba(34,211,238,.6)}
 
@@ -252,7 +252,7 @@
 
 .u0080{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#c4b5fd}
 
-.u0081{color:#5f6b85}
+.u0081{color:#768096}
 
 .u0082{font-family:'Space Grotesk',sans-serif;font-size:19px;margin:0 0 8px;font-weight:600}
 
@@ -308,7 +308,7 @@
 
 .u0108{transition:box-shadow .35s,border-color .35s,transform .35s;padding:15px 20px;border-radius:12px;border:1px solid rgba(120,140,200,.2);background:rgba(13,17,31,.6);color:#c3cbe0;font-size:15px;display:flex;justify-content:space-between;align-items:center}
 
-.u0109{margin:42px 0 0;color:#4f5970;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em}
+.u0109{margin:42px 0 0;color:#747b8e;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em}
 
 
 /* Small metadata lines added to project cards */
@@ -344,7 +344,7 @@
   margin-left:44vw;
   max-width:760px;
   padding:0 clamp(28px,5vw,80px) 34px;
-  color:#4f5970;
+  color:#747b8e;
   font-family:'JetBrains Mono',monospace;
   font-size:12px;
   letter-spacing:.05em;
