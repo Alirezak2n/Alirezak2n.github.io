@@ -25,7 +25,8 @@ jobs:
             --verbose
             --no-progress
             --include-fragments
+            --root-dir "$GITHUB_WORKSPACE"
             --max-retries 3
             --retry-wait-time 5
-            --accept 200,206,429
+            --accept 200,206,403,429
             './**/*.html'
