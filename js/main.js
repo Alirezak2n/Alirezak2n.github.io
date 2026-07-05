@@ -1,3 +1,9 @@
+console.log(
+  '%cAlireza Nameni%c\nGen AI Engineer · ML Researcher\nPoking around? github.com/Alirezak2n',
+  'font-family:monospace;font-size:20px;font-weight:700;color:#22d3ee;',
+  'font-family:monospace;font-size:12px;color:#9aa3bd;'
+);
+
 /* Portfolio background engine — one particle system, eight section-specific topologies. */
 class PortfolioSite {
   componentDidMount() {
